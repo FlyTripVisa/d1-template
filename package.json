@@ -26,4 +26,4 @@
   "dev": "npm run seedLocalD1 && wrangler dev",
   "seedLocalD1": "wrangler d1 migrations apply DB --local",
   "db:migrate:remote": "wrangler d1 migrations apply DB --remote"
-}
+}, 
