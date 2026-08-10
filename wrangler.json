@@ -5,8 +5,8 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "flytripvisa-db",
-      "database_id": "a1b2c3d4-e5f6-7890-abcd-1234567890ab"
+      "database_name": "admin-db",
+      "database_id": "f0a25976-b9e7-4dc3-a26e-a7ecd819069e"
     }
   ]
 }
