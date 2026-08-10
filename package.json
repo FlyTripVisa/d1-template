@@ -23,10 +23,10 @@
 	"scripts": {
 		"cf-typegen": "wrangler types",
 		"check": "tsc && wrangler deploy --dry-run",
-		"predeploy": "wrangler d1 migrations apply DB --remote --ip",
+		"predeploy": "wrangler d1 migrations apply admin-db --remote --ip",
 		"deploy": "wrangler deploy",
 		"dev": "npm run seedLocalD1 && wrangler dev",
-		"seedLocalD1": "wrangler d1 migrations apply DB --local",
-		"db:migrate:remote": "wrangler d1 migrations apply DB --remote"
+		"seedLocalD1": "wrangler d1 migrations apply admin-db --local",
+		"db:migrate:remote": "wrangler d1 migrations apply admin-db --remote"
 	}
 }
