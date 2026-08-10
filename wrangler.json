@@ -1,16 +1,12 @@
 {
-	"compatibility_date": "2025-10-08",
-	"main": "src/index.ts",
-	"name": "d1-template",
-	"upload_source_maps": true,
-	"d1_databases": [
-		{
-			"binding": "DB",
-			"database_id": "bc449b24-09b3-4ecd-a599-b78d0127f594",
-			"database_name": "flydb-d1"
-		}
-	],
-	"observability": {
-		"enabled": true
-	}
+  "name": "d1-template",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-08-10",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "flytripvisa-db",
+      "database_id": "00000007-0000-0000-50c3-4c9bb51cd629"
+    }
+  ]
 }
