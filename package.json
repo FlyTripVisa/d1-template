@@ -15,17 +15,15 @@
 		"preview_image_url": "https://imagedelivery.net/wSMYJvS3Xw-n339CbDyDIA/aa6158f1-7711-4485-f134-a8c802c0a800/preview",
 		"publish": true
 	},
+
 	"devDependencies": {
 		"typescript": "5.9.3",
 		"wrangler": "4.88.0"
-	},
-	"private": true,
-	"scripts": {
-		"cf-typegen": "wrangler types",
-		"check": "tsc && wrangler deploy --dry-run",
-		"deploy": "wrangler deploy",
-		"dev": "npm run seedLocalD1 -- --ip && wrangler dev",
-		"seedLocalD1": "wrangler d1 migrations apply DB --local",
-		"db:migrate:remote": "wrangler d1 migrations apply DB --remote"
-	}
+	},"scripts": {
+  "cf-typegen": "wrangler types",
+  "check": "tsc && wrangler deploy --dry-run",
+  "deploy": "wrangler deploy",
+  "dev": "npm run seedLocalD1 && wrangler dev",
+  "seedLocalD1": "wrangler d1 migrations apply DB --local",
+  "db:migrate:remote": "wrangler d1 migrations apply DB --remote"
 }
